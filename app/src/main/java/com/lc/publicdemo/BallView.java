@@ -111,7 +111,7 @@ public class BallView extends View {
     protected void onDraw(Canvas canvas) {
         long startTime = System.currentTimeMillis();
 
-//  先画出所有圆
+//    先画出所有圆
         for (int i = 0; i < mCount; i++) {
             Ball ball = mBalls[i];
             canvas.drawCircle(ball.cx, ball.cy, ball.radius, ball.paint);
