@@ -117,7 +117,7 @@ public class BallView extends View {
             canvas.drawCircle(ball.cx, ball.cy, ball.radius, ball.paint);
         }
 
-// 球碰撞边界
+//  球碰撞边界
         for (int i = 0; i < mCount; i++) {
             Ball ball = mBalls[i];
             collisionDetectingAndChangeSpeed(ball); // 碰撞边界的计算
