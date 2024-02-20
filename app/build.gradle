@@ -9,8 +9,8 @@ android {
         applicationId "com.lc.publicdemo"
         minSdkVersion 26
         targetSdkVersion 29
-        versionCode 1630
-        versionName "1.6.30"
+        versionCode 1632
+        versionName "1.6.32"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
 
